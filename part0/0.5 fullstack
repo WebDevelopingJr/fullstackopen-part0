@@ -1,0 +1,33 @@
+sequenceDiagram
+    participant browser
+    participant server
+
+    browser->>server: GET /main.html
+    server-->>browser: HTML file
+
+    browser->>server: GET /main.css
+    server-->>browser: CSS file
+
+    browser->>server: GET /main.js
+    server-->>browser: JavaScript file
+
+    browser->>server: GET /data.json
+    server-->>browser: JSON con notas
+
+    Note right of browser: It show the notes rendering the pagesequenceDiagram
+    participant browser
+    participant server
+
+    browser->>server: GET /main.html
+    server-->>browser: HTML file
+
+    browser->>server: GET /main.css
+    server-->>browser: CSS file
+
+    browser->>server: GET /main.js
+    server-->>browser: JavaScript file
+
+    browser->>server: GET /data.json
+    server-->>browser: JSON con notas
+
+    Note right of browser: It show the notes rendering the page
